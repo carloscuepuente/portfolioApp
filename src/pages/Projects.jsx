@@ -1,65 +1,65 @@
 import ProjectCard from "../components/ProjectCard";
 import wonderFlyGif from "../assets/wonderFlyGif.gif";
 import turnosApp from "../assets/turnosApp.gif";
+import erpMaker from "../assets/erpmaker.gif";
+import matterJsMaze from "../assets/matterJsMaze.gif";
+import hackaColor from "../assets/hackaColor.gif";
+import todoList from "../assets/todoList.gif";
 const projects = [
   {
     title: "WonderFly",
     description:
-      "Aplicación de buscador de Vuelos integrada con la API de Amadeus",
-    tools: ["Node.js", "React", "Amadeus Api", "Tailwinds"],
-    githubUrl: "https://github.com/your-username/halcyon-theme",
-    demoUrl:
-      "https://marketplace.visualstudio.com/items?itemName=your-username.halcyon-theme",
-    gif: wonderFlyGif,
-  },
-  {
-    title: "TurnosApp",
-    description:
-      "Aplicación React con MUI que utiliza la biblioteca FullCalendar para gestionar horarios laborales y calcular variables contractuales del acuerdo de V handling en España. Incluye persistencia de datos mediante Local Storage para mantener la información de los usuarios.",
-    tools: ["React", "MUI", "MomentJs", "FullCalendar"],
-    githubUrl: "https://github.com/carloscuepuente/turnosApp",
-    demoUrl: "https://turnosapp.netlify.app/",
-    gif: turnosApp,
-  },
-  {
-    title: "WonderFly",
-    description:
-      "Aplicación de buscador de Vuelos integrada con la API de Amadeus",
-    tools: ["Node.js", "React", "Amadeus Api", "Tailwinds"],
+      "Aplicación full stack integrada con la API de Amadeus para búsqueda de vuelos. Incluye un servidor en Express, base de datos MySQL, autenticación y autorización de usuarios, con una interfaz responsiva moderna e intuitiva",
+    tools: ["Node.js", "Express", "MySQL", "React", "Amadeus Api", "Tailwinds"],
     githubUrl: "https://github.com/your-username/halcyon-theme",
     // demoUrl:
     //   "https://marketplace.visualstudio.com/items?itemName=your-username.halcyon-theme",
     gif: wonderFlyGif,
   },
   {
-    title: "WonderFly",
+    title: "TurnosApp",
     description:
-      "Aplicación de buscador de Vuelos integrada con la API de Amadeus",
-    tools: ["Node.js", "React", "Amadeus Api", "Tailwinds"],
-    githubUrl: "https://github.com/your-username/halcyon-theme",
-    demoUrl:
-      "https://marketplace.visualstudio.com/items?itemName=your-username.halcyon-theme",
-    gif: wonderFlyGif,
+      "Aplicación React con MUI que utiliza la biblioteca FullCalendar para gestionar horarios laborales y calcular variables contractuales del acuerdo de V handling en España. Incluye persistencia de datos mediante Local Storage para mantener la información de los usuarios.",
+    tools: ["React", "MUI", "MomentJs", "FullCalendar", "Netlify"],
+    githubUrl: "https://github.com/carloscuepuente/turnosApp",
+    demoUrl: "https://turnosapp.netlify.app/",
+    gif: turnosApp,
   },
   {
-    title: "WonderFly",
+    title: "ErpMaker",
     description:
-      "Aplicación de buscador de Vuelos integrada con la API de Amadeus",
-    tools: ["Node.js", "React", "Amadeus Api", "Tailwinds"],
-    githubUrl: "https://github.com/your-username/halcyon-theme",
-    demoUrl:
-      "https://marketplace.visualstudio.com/items?itemName=your-username.halcyon-theme",
-    gif: wonderFlyGif,
+      "Aplicación de React con MUI para generar y descargar un documento de Word con docxtemplater, mediante un formulario",
+    tools: ["React", "MUI", "MomentJs", "Docxtemplater", "Netlify"],
+    githubUrl: "https://github.com/carloscuepuente/erpmaker",
+    demoUrl: "https://erpmaker.netlify.app/",
+    gif: erpMaker,
   },
   {
-    title: "WonderFly",
+    title: "MatterJs Maze",
     description:
-      "Aplicación de buscador de Vuelos integrada con la API de Amadeus",
-    tools: ["Node.js", "React", "Amadeus Api", "Tailwinds"],
-    githubUrl: "https://github.com/your-username/halcyon-theme",
-    demoUrl:
-      "https://marketplace.visualstudio.com/items?itemName=your-username.halcyon-theme",
-    gif: wonderFlyGif,
+      "Creación de un laberinto utilizando el algoritmo de backtracking con javascript y el motor de física Matter Js.",
+    tools: ["Javascript", "Matter Js", "backtracking", "Netlify"],
+    githubUrl: "https://github.com/carloscuepuente/Matter-JS-Maze-Game",
+    demoUrl: "https://matter-js-maze-game.netlify.app/",
+    gif: matterJsMaze,
+  },
+  {
+    title: "Hack a Color Game",
+    description:
+      "Una aplicación interactiva que desafía a los usuarios a identificar el color correcto basado en un código RGB proporcionado. Construida con HTML, CSS y JavaScript",
+    tools: ["Javascript", "HTML", "CSS"],
+    githubUrl: "https://github.com/carloscuepuente/colorGameApp",
+    demoUrl: "https://hackacolorgame.netlify.app/",
+    gif: hackaColor,
+  },
+  {
+    title: "Todo List",
+    description:
+      "Aplicación de lista de tareas con persistencia de datos con localStorage",
+    tools: ["React", "MUI"],
+    githubUrl: "https://github.com/carloscuepuente/todoList",
+    demoUrl: "https://todo-list-proyect.netlify.app/",
+    gif: todoList,
   },
 ];
 

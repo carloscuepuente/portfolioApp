@@ -65,18 +65,27 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {projects.map((project, index) => (
-        <ProjectCard
-          key={index}
-          title={project.title}
-          description={project.description}
-          tools={project.tools}
-          githubUrl={project.githubUrl}
-          demoUrl={project.demoUrl}
-          gif={project.gif}
-        />
-      ))}
+    <div className="">
+      <h2 className="text-5xl md:text-6xl font-bold mb-4 text-lightSlate">
+        Mis Proyectos
+      </h2>
+      <p className="text-lg text-brightSlate mb-8 max-w-xl mx-auto">
+        Estos son algunos de los proyectos en los que he participado y algunas
+        de las tecnologías con las que estoy familiarizado.
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {projects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            title={project.title}
+            description={project.description}
+            tools={project.tools}
+            githubUrl={project.githubUrl}
+            demoUrl={project.demoUrl}
+            gif={project.gif}
+          />
+        ))}
+      </div>
     </div>
   );
 }

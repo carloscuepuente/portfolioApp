@@ -3,17 +3,18 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import NavBar from "./pages/NavBar";
 import "./App.css";
 
 function App() {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen  bg-darkBlue">
+      <div className="flex flex-col relative min-h-screen  bg-darkBlue">
         {/* Navegación */}
-        {/* <Navigation /> */}
+        <NavBar />
 
         {/* Contenido principal con rutas */}
-        <main className="flex-grow container mx-auto px-4 py-8">
+        <main className="flex-grow container mx-auto px-4 py-8 mt-5">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />

@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import {
   CodeIcon,
-  RocketIcon,
   AppWindow,
   DownloadIcon,
   Server,
@@ -9,6 +8,7 @@ import {
   GithubIcon,
   LinkedinIcon,
 } from "lucide-react";
+import curriculum from "../assets/CVCarlosCue.pdf";
 
 const Home = () => {
   return (
@@ -45,7 +45,7 @@ const Home = () => {
           </Link>
 
           <a
-            href="/CV-TuNombre.pdf"
+            href={curriculum}
             download
             className="border border-[#64ffda] text-[#64ffda] px-6 py-3 rounded-lg 
                     hover:bg-[#0a192f] hover:text-white transition flex items-center font-semibold"

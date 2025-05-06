@@ -12,8 +12,7 @@ const projects = [
       "Aplicación full stack integrada con la API de Amadeus para búsqueda de vuelos. Incluye un servidor en Express, base de datos MySQL, autenticación y autorización de usuarios, con una interfaz responsiva moderna e intuitiva",
     tools: ["Node.js", "Express", "MySQL", "React", "Amadeus Api", "Tailwinds"],
     githubUrl: "https://github.com/your-username/halcyon-theme",
-    // demoUrl:
-    //   "https://marketplace.visualstudio.com/items?itemName=your-username.halcyon-theme",
+    demoUrl: "https://wonderflight.netlify.app/",
     gif: wonderFlyGif,
   },
   {

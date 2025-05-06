@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import Logo from "../components/Logo";
 
 // Componente Navigation
 const NavBar = () => {
@@ -48,7 +49,7 @@ const NavBar = () => {
           to="/"
           className="text-cianGreen font-bold text-2xl tracking-tight hover:text-opacity-80 transition-colors"
         >
-          Portfolio
+          <Logo />
         </Link>
 
         {/* Menú de escritorio */}

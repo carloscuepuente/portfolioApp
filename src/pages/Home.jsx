@@ -100,7 +100,7 @@ const Home = () => {
             href="https://github.com/carloscuepuente"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-700 hover:text-gray-900 transition"
+            className="text-brightSlate hover:text-cianGreen transition"
           >
             <GithubIcon size={32} />
           </a>
@@ -109,7 +109,7 @@ const Home = () => {
             href="https://www.linkedin.com/in/carlosalbertocuepuente/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-700 hover:text-gray-900 transition"
+            className="text-brightSlate hover:text-cianGreen transition"
           >
             <LinkedinIcon size={32} />
           </a>

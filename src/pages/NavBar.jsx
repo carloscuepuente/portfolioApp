@@ -32,7 +32,7 @@ const NavBar = () => {
     { name: "Inicio", path: "/" },
     { name: "Proyectos", path: "/projects" },
     { name: "Sobre Mí", path: "/about" },
-    { name: "Contacto", path: "/contact" },
+    // { name: "Contacto", path: "/contact" },
   ];
 
   return (
